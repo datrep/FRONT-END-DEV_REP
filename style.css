@@ -92,13 +92,13 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background-image: url('images/banner.png');
+	background-image: url('images/computer-training-bg.jpg');
    background-size: cover; /* Ensures the image covers the entire section */
    background-position: center; /* Centers the image */
    background-repeat: no-repeat; /* Prevents tiling */
    height: 80vh; /* Full viewport height */
    width: 100%; /* Full width */
-   padding-top: 60px;
+   padding-top: 0px;
 }
 
 /* About Section */
@@ -297,22 +297,14 @@ footer {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  bottom: -25px;
+  width: 100%;
+  text-align: center;
+  
 }
 
 /* The dots/bullets/indicators */
@@ -341,3 +333,37 @@ footer {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+.menu {
+	flex-wrap: nowrap;
+	flex: auto;
+	color:#000000;
+}
+
+@media (max-width: 600px) {
+	.menu {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+/*debug*/
+
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 1px solid blue }
+* * * * { outline: 1px solid purple }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 2px dotted green }
+* * * * * * * { outline: 2px dotted blue }
+* * * * * * * * { outline: 2px dotted purple }
+
+/* Style so you can better see the lines */
+div{
+  margin: 10px;
+  padding: 10px;
+}
+
+/*debug*/

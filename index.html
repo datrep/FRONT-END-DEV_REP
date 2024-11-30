@@ -17,32 +17,30 @@
     
   <div id="main">
     <span onclick="openNav()">
-      <div class ="logoimg" style="float: left;"><img src="images/favicon.ico" /></div>
+      <div class ="logoimg" style="float: left;"><img src="/images/monitor.png" /></div>
     </span>
 
-  <div id="mySidenav" class="sidenav">
+  <div id="mySidenav" class="sidenav"> <!--forget about mobile i cant even get it to not wrap on PC-->
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
+    <a href="Courses.html">Courses</a>
+    <a href="Services.html">Services</a>
+    <a href="Other.html">Other</a>
 
   </div>
 
 
-  <div>
+ 
     
   <!-- Navigation -->
-  <header> <a href="">
-    </a>
-    <nav>
-      <ul>
-        <li><a href="#hero">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li> <a href="#contact">CONTACT</a></li>
+  <header class="menu">
+    <nav class="menu">
+      <ul  class="menu">   <!--how to prevent wrapping-->
+        <li class="menu"><a href="#hero">HOME</a></li>
+        <li class="menu"><a href="#about">ABOUT</a></li>
+        <li class="menu"><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
   </header>
-  </div>
 </div>
 
 
@@ -62,19 +60,19 @@
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
+      <div></div>
       <img src="images/aboutus.png" style="width:100%">
       <div class="text">Caption Text</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
+      <div></div>
       <img src="images/aboutus.png" style="width:100%">
       <div class="text">Caption Two</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
+      <div></div>
       <img src="images/aboutus.png" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
@@ -98,7 +96,9 @@
   <footer>
     <article class="footer_column">
       <h3>ABOUT</h3>
-      <img src="images/aboutus.png" alt="" width="400px" height="200px" class="cards"/>
+      <a href="aboutus.html">
+        <img src="images/aboutus.png" alt="" width="400px" height="200px" class="cards"/>
+      </a>
       <p>Click on the image to find more about us.</p>
     </article>
     <article class="footer_column">
@@ -119,7 +119,7 @@
     </p>
   </section>
   <!-- Copyrights Section -->
-  <div class="copyright">&copy;2024- <strong>EDU-TRUST</strong></div>
+  <div class="copyright">&copy;2024-<strong>LEARNCOMPUTERS</strong></div>
 </div>
 <!-- Main Container Ends -->
 
